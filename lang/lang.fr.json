@@ -185,7 +185,7 @@
             "translators": "[TranslatorName#1234](https://github.com/)"
         },
         "bot": {
-            "description": "{{REF:links.templateEmbed}} helps give developers a starting point for new Discord bots, so that much of the initial setup can be avoided and developers can instead focus on meaningful bot features."
+            "description": "{{REF:links.botEmbed}} est un bot Discord qui fourni des informations sur la météo pour un endroit donné. Il peut également être utilisé afin de visionner la prévision météo pour les 5 prochains jours, et de voir le radar météo."
         },
         "chatCommands": {
             "help": "help",
@@ -288,6 +288,7 @@
         },
         "links": {
             "authorEmbed": "[{{COM:bot.author}}]({{COM:links.author}})",
+            "botEmbed": "[Discord Weather Bot]({{COM:links.source}})",
             "docsEmbed": "[View Documentation]({{COM:links.docs}})",
             "donateEmbed": "[Donate via PayPal]({{COM:links.donate}})",
             "inviteEmbed": "[Invite {{COM:bot.name}} to a Server!]({{COM:links.invite}})",
