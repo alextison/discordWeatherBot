@@ -83,8 +83,8 @@
                 ]
             },
             "translate": {
-                "title": "{{COM:bot.name}} - Translations",
-                "description": "Thank you to our translators who have made it possible for {{COM:bot.name}} to be used in the following languages. If you are interested in providing a translation, please contact the staff in our [support server]({{COM:links.support}})."
+                "title": "{{COM:bot.name}} - Traductions",
+                "description": "Merci à tous nos traducteurs qui ont permis à {{COM:bot.name}} d'être utilisé dans les langues suivantes. Si vous souhaitez nous aider à traduire le bot, contactez-nous directement ou soumettez une [Pull Request sur le repository Github]({{COM: links.pullRequest}})"
             },
             "dev": {
                 "title": "{{COM:bot.name}} - Developer Info",
