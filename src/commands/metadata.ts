@@ -41,12 +41,12 @@ export const ChatCommandMetadata: {
             },
         ],
     },
-    TEST: {
+    WEATHER: {
         type: ApplicationCommandType.ChatInput,
-        name: Lang.getRef('chatCommands.test', Language.Default),
-        name_localizations: Lang.getRefLocalizationMap('chatCommands.test'),
-        description: Lang.getRef('commandDescs.test', Language.Default),
-        description_localizations: Lang.getRefLocalizationMap('commandDescs.test'),
+        name: Lang.getRef('chatCommands.weather', Language.Default),
+        name_localizations: Lang.getRefLocalizationMap('chatCommands.weather'),
+        description: Lang.getRef('commandDescs.weather', Language.Default),
+        description_localizations: Lang.getRefLocalizationMap('commandDescs.weather'),
         dm_permission: true,
         default_member_permissions: undefined,
     },

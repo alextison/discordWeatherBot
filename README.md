@@ -48,14 +48,13 @@ This bot has a few example commands which can be modified as needed.
 
 A `/help` command to get help on different areas of the bot or to contact support:
 
-
 ### Info Command
 
 A `/info` command to get information about the bot, links to different resources, or developer information.
 
-### Test Command
+### Weather Command
 
-A generic command, `/test`, which can be copied to create additional commands.
+The main bot's command `/weather`, allow users to ask for weather in a given location.
 
 ### Welcome Message
 

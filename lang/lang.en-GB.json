@@ -35,7 +35,7 @@
                         "value": [
                             "To see the available commands, just type `/` and select the bot from the left side. You can then scroll through all available commands. Some commands may be hidden if you don't have permission to view them.",
                             "",
-                            "{{CMD_LINK_TEST}} - {{REF:commandDescs.test}}",
+                            "{{CMD_LINK_WEATHER}} - {{REF:commandDescs.weather}}",
                             "{{CMD_LINK_INFO}} - {{REF:commandDescs.info}}"
                         ]
                     },
@@ -51,8 +51,9 @@
                     }
                 ]
             },
-            "test": {
-                "description": "Test command works!"
+            "weather": {
+                "title": "{{COM:bot.name}}",
+                "description": "The current weather for the location is X."
             },
             "viewDateJoined": {
                 "description": "{{TARGET}} joined on {{DATE}}!"
@@ -190,7 +191,7 @@
         "chatCommands": {
             "help": "help",
             "info": "info",
-            "test": "test"
+            "weather": "weather"
         },
         "userCommands": {
             "viewDateJoined": "View Date Joined"
@@ -204,7 +205,7 @@
         "commandDescs": {
             "help": "Find help or contact support.",
             "info": "View bot info.",
-            "test": "Run the test command."
+            "weather": "Run the weather command."
         },
         "argDescs": {
             "helpOption": "Option.",
