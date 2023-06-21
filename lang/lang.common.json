@@ -26,11 +26,11 @@
         "author": "https://github.com/alextison",
         "docs": "https://top.gg/",
         "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=EW389DYYSS4FC",
-        "invite": "https://discord.com/",
+        "invite": "https://discord.com/oauth2/authorize?client_id=1120358582777552986&scope=bot%20applications.commands&permissions=105227086912",
         "pullRequest": "https://github.com/alextison/discordWeatherBot/pulls",
         "source": "https://github.com/alextison/discordWeatherBot",
         "stream": "https://www.twitch.tv/torfa",
-        "support": "https://support.discord.com/",
+        "support": "https://discord.gg/b8nheHhZ5J",
         "template": "https://github.com/KevinNovak/Discord-Bot-TypeScript-Template",
         "vote": "https://top.gg/"
     }
