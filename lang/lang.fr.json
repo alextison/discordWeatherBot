@@ -18,7 +18,7 @@
             "helpContactSupport": {
                 "title": "Help - {{REF:helpOptions.contactSupport}}",
                 "description": [
-                    "Have a question or feedback? Join our support server at the link below!"
+                    "Vous avez une question ou un retour ? Rejoignez le serveur de support en cliquant sur le lien ci-dessous."
                 ],
                 "fields": [
                     {
@@ -161,7 +161,7 @@
                         "value": "{{SHARD_ID}}"
                     },
                     {
-                        "name": "Contact support",
+                        "name": "Contacter le support",
                         "value": "{{COM:links.support}}"
                     }
                 ],
@@ -202,7 +202,7 @@
             "option": "option"
         },
         "commandDescs": {
-            "help": "Find help or contact support.",
+            "help": "Trouver de l'aide ou contacter le support.",
             "info": "View bot info.",
             "test": "Run the test command."
         },
@@ -263,7 +263,7 @@
             "ViewGuildInsights": "View Server Insights"
         },
         "helpOptions": {
-            "contactSupport": "Contact Support",
+            "contactSupport": "Contacter le support",
             "commands": "Commands"
         },
         "helpOptionDescs": {
