@@ -48,31 +48,18 @@ This bot has a few example commands which can be modified as needed.
 
 A `/help` command to get help on different areas of the bot or to contact support:
 
-![](https://i.imgur.com/UUA4WzL.png)
-
-![](https://i.imgur.com/YtDdmTe.png)
-
-![](https://i.imgur.com/JXMisap.png)
 
 ### Info Command
 
 A `/info` command to get information about the bot, links to different resources, or developer information.
 
-![](https://i.imgur.com/jHp9rSG.png)
-
-![](https://i.imgur.com/cOyCg49.png)
-
 ### Test Command
 
 A generic command, `/test`, which can be copied to create additional commands.
 
-![](https://i.imgur.com/lqjkNKM.png)
-
 ### Welcome Message
 
 A welcome message is sent to the server and owner when the bot is added.
-
-![](https://i.imgur.com/QBw8H8v.png)
 
 ## Setup
 

@@ -1,8 +1,8 @@
 {
-    "name": "my-bot",
+    "name": "Weather Bot",
     "version": "1.0.0",
-    "author": "Kevin Novak",
-    "description": "A discord.js bot template written with TypeScript",
+    "author": "Alextison",
+    "description": "An OpenSource Discord bot with features related to weather",
     "license": "MIT",
     "private": true,
     "engines": {
