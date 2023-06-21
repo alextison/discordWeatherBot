@@ -16,7 +16,7 @@
                 ]
             },
             "helpContactSupport": {
-                "title": "Help - {{REF:helpOptions.contactSupport}}",
+                "title": "Aide - {{REF:helpOptions.contactSupport}}",
                 "description": [
                     "Vous avez une question ou un retour ? Rejoignez le serveur de support en cliquant sur le lien ci-dessous."
                 ],
@@ -28,21 +28,21 @@
                 ]
             },
             "helpCommands": {
-                "title": "Help - {{REF:helpOptions.commands}}",
+                "title": "Aide - {{REF:helpOptions.commands}}",
                 "fields": [
                     {
-                        "name": "Commands",
+                        "name": "Commandes",
                         "value": [
-                            "To see the available commands, just type `/` and select the bot from the left side. You can then scroll through all available commands. Some commands may be hidden if you don't have permission to view them.",
+                            "Pour voir les commandes disponibles; tapez simple `/` et sélectionnez le bot sur la gauche. Vous pouvez ensuite faire défiler toutes les commandes disponibles. Certaines commandes peuvent être masquées si vous n'avez pas la permission de les voir.",
                             "",
                             "{{CMD_LINK_WEATHER}} - {{REF:commandDescs.weather}}",
                             "{{CMD_LINK_INFO}} - {{REF:commandDescs.info}}"
                         ]
                     },
                     {
-                        "name": "Command Permissions",
+                        "name": "Permissions des commandes",
                         "value": [
-                            "Want to restrict commands to certain roles, users, or channels? Set up permissions in the bot's integration page by going to **Server Settings** > **Integrations**, and then **Manage** for this bot."
+                            "Vous souhaitez restreindre les commandes à certains rôles, utilisateurs ou canaux ? Configurez les permissions dans la page d'intégration du bot en allant dans **Paramètres du serveur** > **Intégrations**, puis **Gérer** pour ce bot."
                         ]
                     },
                     {
@@ -56,10 +56,10 @@
                 "description": "La météo actuelle pour le lieu est X."
             },
             "viewDateJoined": {
-                "description": "{{TARGET}} joined on {{DATE}}!"
+                "description": "{{TARGET}} a rejoint le {{DATE}}!"
             },
             "viewDateSent": {
-                "description": "This message was sent on {{DATE}}!"
+                "description": "Ce message a été envoyé le {{DATE}}!"
             },
             "about": {
                 "title": "{{COM:bot.name}} - À propos",
@@ -78,7 +78,7 @@
                         ]
                     },
                     {
-                        "name": "Created With",
+                        "name": "Créé avec",
                         "value": ["{{REF:links.templateEmbed}}"]
                     }
                 ]
@@ -88,7 +88,7 @@
                 "description": "Merci à tous nos traducteurs qui ont permis à {{COM:bot.name}} d'être utilisé dans les langues suivantes. Si vous souhaitez nous aider à traduire le bot, contactez-nous directement ou soumettez une [Pull Request sur le repository Github]({{COM: links.pullRequest}})"
             },
             "dev": {
-                "title": "{{COM:bot.name}} - Developer Info",
+                "title": "{{COM:bot.name}} - Informations du Développeur",
                 "fields": [
                     {
                         "name": "Versions",
@@ -100,14 +100,14 @@
                         ]
                     },
                     {
-                        "name": "Stats",
+                        "name": "Statistiques",
                         "value": [
                             "**Shards**: {{SHARD_COUNT}}",
                             "**Servers**: {{SERVER_COUNT}} ({{SERVER_COUNT_PER_SHARD}}/Shard)"
                         ]
                     },
                     {
-                        "name": "Memory",
+                        "name": "Mémoire",
                         "value": [
                             "**RSS**: {{RSS_SIZE}} ({{RSS_SIZE_PER_SERVER}}/Server)",
                             "**Heap**: {{HEAP_TOTAL_SIZE}} ({{HEAP_TOTAL_SIZE_PER_SERVER}}/Server)",
@@ -129,32 +129,32 @@
         },
         "validationEmbeds": {
             "cooldownHit": {
-                "description": "You can only run this command {{AMOUNT}} time(s) every {{INTERVAL}}. Please wait before attempting this command again.",
+                "description": "Vous pounez uniquement utilier cette commande {{AMOUNT}} fois tous les {{INTERVAL}}. Veuillez patientier avant d'essayer à nouveau cette commande.",
                 "color": "{{COM:colors.warning}}"
             },
             "devOnly": {
-                "description": "This action can only be done by developers.",
+                "description": "Cette action peut uniquement être effectuée par un développeur.",
                 "color": "{{COM:colors.warning}}"
             },
             "missingClientPerms": {
                 "description": [
-                    "I don't have all permissions required to run that command here! Please check the server and channel permissions to make sure I have the following permissions.",
+                    "Je n'ai pas toutes les permissions nécessaires pour exécuter cette commande ici! Veuillez vérifier les permissions du serveur et du canal afin de s'assurer que j'ai les permissions suivantes.",
                     "",
-                    "Required permissions: {{PERMISSIONS}}"
+                    "Permissions requises: {{PERMISSIONS}}"
                 ],
                 "color": "{{COM:colors.warning}}"
             }
         },
         "errorEmbeds": {
             "command": {
-                "description": "Something went wrong!",
+                "description": "Quelque chose s'est mal passé!",
                 "fields": [
                     {
-                        "name": "Error code",
+                        "name": "Code d'erreur",
                         "value": "{{ERROR_CODE}}"
                     },
                     {
-                        "name": "Server ID",
+                        "name": "ID du serveur",
                         "value": "{{GUILD_ID}}"
                     },
                     {
@@ -169,11 +169,11 @@
                 "color": "{{COM:colors.error}}"
             },
             "startupInProcess": {
-                "description": "{{COM:bot.name}} is still starting up. Try again later.",
+                "description": "{{COM:bot.name}} est encore en train de démarrer. Réessayez plus tard.",
                 "color": "{{COM:colors.warning}}"
             },
             "notImplemented": {
-                "description": "This feature has not been implemented yet!",
+                "description": "Cette fonctionnalité n'est pas implémentée pour le moment!",
                 "color": "{{COM:colors.warning}}"
             }
         },
@@ -183,28 +183,28 @@
     },
     "refs": {
         "meta": {
-            "translators": "[TranslatorName#1234](https://github.com/)"
+            "translators": "[Traducteur#1234](https://github.com/)"
         },
         "bot": {
             "description": "{{REF:links.botEmbed}} est un bot Discord qui fourni des informations sur la météo pour un endroit donné. Il peut également être utilisé afin de visionner la prévision météo pour les 5 prochains jours, et de voir le radar météo."
         },
         "chatCommands": {
-            "help": "help",
+            "help": "aide",
             "info": "info",
-            "weather": "weather"
+            "weather": "météo"
         },
         "userCommands": {
-            "viewDateJoined": "View Date Joined"
+            "viewDateJoined": "Voir la date d'arrivée"
         },
         "messageCommands": {
-            "viewDateSent": "View Date Sent"
+            "viewDateSent": "Voir la date d'envoie"
         },
         "arguments": {
             "option": "option"
         },
         "commandDescs": {
             "help": "Trouver de l'aide ou contacter le support.",
-            "info": "View bot info.",
+            "info": "Voir les informations du bot.",
             "weather": "Lancer une recherche météo pour un endroit donné."
         },
         "argDescs": {
@@ -212,77 +212,77 @@
             "infoOption": "Option."
         },
         "fields": {
-            "commands": "Commands",
-            "links": "Links"
+            "commands": "Commandes",
+            "links": "Liens"
         },
         "permissions": {
-            "AddReactions": "Add Reactions",
-            "Administrator": "Administrator",
-            "AttachFiles": "Attach Files",
-            "BanMembers": "Ban Members",
-            "ChangeNickname": "Change Nickname",
-            "Connect": "Connect",
-            "CreateInstantInvite": "Create Invite",
-            "CreatePrivateThreads": "Create Private Threads",
-            "CreatePublicThreads": "Create Public Threads",
-            "DeafenMembers": "Deafen Members",
-            "EmbedLinks": "Embed Links",
-            "KickMembers": "Kick Members",
-            "ManageChannels": "Manage Channel(s)",
-            "ManageEmojisAndStickers": "Manage Emoji and Stickers",
-            "ManageEvents": "Manage Events",
-            "ManageGuild": "Manage Server",
-            "ManageGuildExpressions": "Manage Expressions",
-            "ManageMessages": "Manage Messages",
-            "ManageNicknames": "Manage Nicknames",
-            "ManageRoles": "Manage Roles / Permissions",
-            "ManageThreads": "Manage Threads / Posts",
-            "ManageWebhooks": "Manage Webhooks",
-            "MentionEveryone": "Mention Everyone, Here, and All Roles",
-            "ModerateMembers": "Timeout Members",
-            "MoveMembers": "Move Members",
-            "MuteMembers": "Mute Members",
-            "PrioritySpeaker": "Priority Speaker",
-            "ReadMessageHistory": "Read Message History",
-            "RequestToSpeak": "Request to Speak",
-            "SendMessages": "Send Messages / Create Posts",
-            "SendMessagesInThreads": "Send Messages in Threads / Posts",
-            "SendTTSMessages": "Send Text-to-Speech Messages",
-            "SendVoiceMessages": "Send Voice Messages",
-            "Speak": "Speak",
-            "Stream": "Video",
-            "UseApplicationCommands": "Use Application Commands",
-            "UseEmbeddedActivities": "Use Activities",
-            "UseExternalEmojis": "Use External Emoji",
-            "UseExternalSounds": "Use External Sounds",
-            "UseExternalStickers": "Use External Stickers",
-            "UseSoundboard": "Use Soundboard",
-            "UseVAD": "Use Voice Activity",
-            "ViewAuditLog": "View Audit Log",
-            "ViewChannel": "View Channel(s)",
-            "ViewCreatorMonetizationAnalytics": "View Server Subscription Insights",
-            "ViewGuildInsights": "View Server Insights"
+            "AddReactions": "Ajouter Réactions",
+            "Administrator": "Administrateur",
+            "AttachFiles": "Ajouter Fichiers",
+            "BanMembers": "Bannir Membres",
+            "ChangeNickname": "Changer Pseudo",
+            "Connect": "Connecter",
+            "CreateInstantInvite": "Créer Invitation",
+            "CreatePrivateThreads": "Créer Threads Privé",
+            "CreatePublicThreads": "Créer Threads Public",
+            "DeafenMembers": "Membres Sourds",
+            "EmbedLinks": "Liens Intégrés",
+            "KickMembers": "Exclure Membres",
+            "ManageChannels": "Gérer Canal(aux)",
+            "ManageEmojisAndStickers": "Gérer Emoji et Stickers",
+            "ManageEvents": "Gérer Events",
+            "ManageGuild": "Gérer Serveur",
+            "ManageGuildExpressions": "Gérer Expressions",
+            "ManageMessages": "Gérer Messages",
+            "ManageNicknames": "Gérer Pseudos",
+            "ManageRoles": "Gérer Rôles / Permissions",
+            "ManageThreads": "Gérer Threads / Posts",
+            "ManageWebhooks": "Gérer Webhooks",
+            "MentionEveryone": "Mentionner Everyone, Here, et Tous Rôles",
+            "ModerateMembers": "Timeout Membres",
+            "MoveMembers": "Déplacer Membres",
+            "MuteMembers": "Mute Membres",
+            "PrioritySpeaker": "Conférencier Prioritaire",
+            "ReadMessageHistory": "Lire Historique Message",
+            "RequestToSpeak": "Demander à Parler",
+            "SendMessages": "Envoyer Messages / Créer Posts",
+            "SendMessagesInThreads": "Envoyer Messages dans Threads / Posts",
+            "SendTTSMessages": "Envoyer Messages Text-to-Speech",
+            "SendVoiceMessages": "Envoyer Messages Vocaux",
+            "Speak": "Parler",
+            "Stream": "Vidéo",
+            "UseApplicationCommands": "Utiliser Commandes d'Application",
+            "UseEmbeddedActivities": "Utiliser Activités",
+            "UseExternalEmojis": "Utiliser Emoji Externe",
+            "UseExternalSounds": "Utiliser Sons Externe",
+            "UseExternalStickers": "Utiliser Stickers Externe",
+            "UseSoundboard": "Utiliser Soundboard",
+            "UseVAD": "Utiliser Voice Activity",
+            "ViewAuditLog": "Voir Audit Log",
+            "ViewChannel": "Voir Canal(aux)",
+            "ViewCreatorMonetizationAnalytics": "Voir Informations Abonnement Serveur",
+            "ViewGuildInsights": "Voir Informations Serveur"
         },
         "helpOptions": {
             "contactSupport": "Contacter le support",
-            "commands": "Commands"
+            "commands": "Commandes"
         },
         "helpOptionDescs": {
             "contactSupport": "❓ {{REF:helpOptions.contactSupport}} ❓",
-            "commands": "{{REF:helpOptions.commands}} -- What commands are there? How do I restrict who is allowed to use commands?"
+            "commands": "{{REF:helpOptions.commands}} -- Quelles sont les commandes? Comment limiter les personnes autorisées à utiliser les commandes?"
         },
         "infoOptions": {
-            "about": "About",
-            "translate": "Translate",
+            "about": "À propos",
+            "translate": "Traduction",
             "dev": "Dev"
         },
         "yesNo": {
-            "yes": "Yes",
-            "no": "No"
+            "yes": "Oui",
+            "no": "Non"
         },
         "boolean": {
-            "true": "True",
-            "false": "False"
+            "true": "Vraie",
+            "false": "Faux"
         },
         "other": {
             "na": "N/A"
